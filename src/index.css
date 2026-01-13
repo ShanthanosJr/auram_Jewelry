@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Auram E-commerce Design System - Gold & Cream Luxury */
+
+@layer base {
+    :root {
+        /* Warm cream/gold palette */
+        --background: 40 33% 97%;
+        --foreground: 30 20% 15%;
+
+        /* Status bar */
+        --status-bar: 30 25% 12%;
+        --status-bar-foreground: 45 40% 95%;
+
+        /* Navigation */
+        --nav-background: 40 33% 97%;
+        --nav-foreground: 30 20% 20%;
+        --nav-hover: 35 40% 30%;
+
+        /* Interactive elements - Gold tones */
+        --primary: 35 55% 35%;
+        --primary-foreground: 45 40% 97%;
+        --primary-hover: 35 50% 40%;
+
+        /* Subtle elements - Warm cream */
+        --secondary: 40 30% 93%;
+        --secondary-foreground: 30 20% 25%;
+
+        --muted: 40 25% 92%;
+        --muted-foreground: 30 15% 45%;
+
+        --accent: 35 40% 88%;
+        --accent-foreground: 30 25% 15%;
+
+        --border: 35 20% 85%;
+        --input: 35 20% 88%;
+        --ring: 35 55% 35%;
+
+        /* Cards and surfaces */
+        --card: 40 33% 98%;
+        --card-foreground: 30 20% 15%;
+
+        --popover: 40 33% 98%;
+        --popover-foreground: 30 20% 15%;
+
+        --destructive: 0 84% 60%;
+        --destructive-foreground: 0 0% 98%;
+
+        --radius: 0.375rem;
+
+        /* Transitions */
+        --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+        --sidebar-background: 40 30% 96%;
+        --sidebar-foreground: 30 15% 30%;
+        --sidebar-primary: 35 55% 35%;
+        --sidebar-primary-foreground: 45 40% 97%;
+        --sidebar-accent: 40 25% 92%;
+        --sidebar-accent-foreground: 30 25% 15%;
+        --sidebar-border: 35 20% 88%;
+        --sidebar-ring: 35 55% 40%;
+    }
+
+    .dark {
+        --background: 30 15% 10%;
+        --foreground: 45 30% 92%;
+
+        --status-bar: 30 20% 5%;
+        --status-bar-foreground: 45 40% 95%;
+
+        --nav-background: 30 15% 10%;
+        --nav-foreground: 45 25% 80%;
+        --nav-hover: 45 35% 90%;
+
+        --primary: 40 50% 55%;
+        --primary-foreground: 30 15% 10%;
+        --primary-hover: 40 45% 60%;
+
+        --secondary: 30 15% 18%;
+        --secondary-foreground: 45 25% 80%;
+
+        --muted: 30 12% 18%;
+        --muted-foreground: 35 15% 55%;
+
+        --accent: 35 20% 20%;
+        --accent-foreground: 45 30% 92%;
+
+        --border: 30 15% 25%;
+        --input: 30 15% 25%;
+        --ring: 40 50% 55%;
+
+        --card: 30 15% 12%;
+        --card-foreground: 45 30% 92%;
+
+        --popover: 30 15% 12%;
+        --popover-foreground: 45 30% 92%;
+
+        --destructive: 0 62% 50%;
+        --destructive-foreground: 0 0% 98%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground font-light;
+    }
+}
