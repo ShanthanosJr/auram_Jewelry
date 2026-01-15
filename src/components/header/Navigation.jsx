@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import ShoppingBag from "./ShoppingBag";
+import organicEarring from "@/assets/organic-earring.png";
 
 // Online jewelry images
 const IMAGES = {
@@ -13,7 +14,7 @@ const IMAGES = {
     rings: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80",
     earrings: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
     bracelet: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80",
-    founders: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80",
+    founders: "https://res.cloudinary.com/dc0cujoji/image/upload/v1768473221/gold_si2feu.jpg",
 };
 
 const Navigation = () => {

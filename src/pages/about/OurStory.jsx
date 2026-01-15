@@ -4,7 +4,7 @@ import PageHeader from "../../components/about/PageHeader";
 import ContentSection from "../../components/about/ContentSection";
 import ImageTextBlock from "../../components/about/ImageTextBlock";
 import AboutSidebar from "../../components/about/AboutSidebar";
-import goldImage from "@/assets/gold.jpg";
+import organicEarring from "@/assets/organic-earring.png";
 
 const OurStory = () => {
     return (
@@ -24,7 +24,7 @@ const OurStory = () => {
 
                     <ContentSection>
                         <ImageTextBlock
-                            image={goldImage}
+                            image={organicEarring}
                             imageAlt="Company founders"
                             title="Founded on Passion"
                             content="Auram Jewelry was born from a shared vision of creating timeless pieces that transcend fleeting trends. Our founders, united by their passion for exceptional craftsmanship and sustainable practices, established the brand with a commitment to creating jewelry that tells a story - your story."
