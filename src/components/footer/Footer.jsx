@@ -14,12 +14,12 @@ const Footer = () => {
                         <div className="space-y-2 text-sm font-light text-muted-foreground">
                             <div>
                                 <p className="font-normal text-foreground mb-1">Visit Us</p>
-                                <p>123 Fifth Avenue</p>
-                                <p>New York, NY 10016</p>
+                                <p>Auram, Road No. 123</p>
+                                <p>Kottawa, Sri Lanka</p>
                             </div>
                             <div>
                                 <p className="font-normal text-foreground mb-1 mt-3">Contact</p>
-                                <p>+1 (212) 555-0123</p>
+                                <p>+94 77 123 4567</p>
                                 <p>hello@auramjewelry.com</p>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const Footer = () => {
             <div className="border-t border-border -mx-6 px-6 pt-2">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <p className="text-sm font-light text-muted-foreground mb-1 md:mb-0">
-                        © 2024 Auram. All rights reserved.
+                        © 2025 Auram. All rights reserved.
                     </p>
                     <div className="flex space-x-6">
                         <a href="/privacy-policy" className="text-sm font-light text-muted-foreground hover:text-foreground transition-colors">
